@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-img{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg?w=826&t=st=1709794939~exp=1709795539~hmac=e3d0de03b047844d013b2fff04820711c9f221ea400014036c781db4f45b428c');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2rem;
+}

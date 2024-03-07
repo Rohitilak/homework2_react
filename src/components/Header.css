@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Header{
+    width: 100%;
+    height: 23vh;
+    /* background-color: rgb(228, 210, 197); */
+
+}
+
+#main-msg, #main-h1{
+    margin-left: 5px;
+}
+
+#main-h1{
+    color: firebrick;
+    margin-bottom: 0.7rem;
+}
+
+#home-list{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 1.5rem;
+}
+
+li:first-child{
+    padding: 1rem 4rem;
+    list-style: none;
+    border-right: 0.2px solid black;
+    background-color: darkred;
+
+}
+
+li{
+    padding: 1rem 4rem;
+    list-style: none;
+    font-weight: 600;
+    color: white;
+}
